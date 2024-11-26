@@ -42,7 +42,7 @@
                 <&macro_tap>,
                 <&bt BT_SEL MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&to 1>;
+                <&to 1 &out OUT_BLE>;
         };
 
         default_layer_toggle: default_layer_toggle {
@@ -55,7 +55,7 @@
                 <&macro_tap>,
                 <&bt BT_SEL MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&to 0>;
+                <&to 0 &out OUT_USB>;
         };
     };
 

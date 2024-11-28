@@ -8,6 +8,12 @@
 #include "adv360.dtsi"
 
 /{
+   &key_wake {
+      compatible = "zmk,soft-off-wakeup-sources";
+      // Backspace key
+      wakeup-sources = <&gpio1 15 GPIO_ACTIVE_HIGH>; /* Row GPIO for RC(1,5) */
+   };
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
 

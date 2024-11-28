@@ -33,8 +33,8 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_150PPM=y
 
 # Enable deep sleep support
 CONFIG_ZMK_SLEEP=y
-# Wait for 5 mins before going to deep sleep
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=300000
+# Wait for 10 mins before going to deep sleep
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=600000
 
 #RGB leds config
 CONFIG_WS2812_STRIP=y

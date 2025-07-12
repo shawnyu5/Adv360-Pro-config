@@ -1,0 +1,6 @@
+---
+include:
+  - board: adv360_left
+    shield: adv360_left
+  - board: adv360_right
+    shield: adv360_right

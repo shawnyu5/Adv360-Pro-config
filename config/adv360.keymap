@@ -108,11 +108,11 @@
 
         ios_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans      &trans  &kp RALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans      &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

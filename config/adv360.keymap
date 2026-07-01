@@ -138,11 +138,11 @@
 
         mod {
             bindings = <
-&none  &default_layer_toggle 0  &default_layer_toggle 1  &to 3          &ios_layer_toggle 3  &mac_layer_toggle 4  &none                                                  &trans                  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR
-&none  &none                    &none                    &none          &none                &none                &bootloader                                            &bootloader             &none          &out OUT_USB   &out OUT_BLE   &none          &none          &none
-&none  &none                    &none                    &none          &none                &none                &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none          &none          &none          &none          &none          &none
-&none  &none                    &none                    &none          &macro_ver           &none                                    &none      &none                                           &none          &none          &none          &none          &none          &none
-&none  &none                    &none                    &kp C_AC_BACK  &kp C_AC_FORWARD                          &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                        &bl BL_INC     &bl BL_DEC     &none          &none          &none
+&none  &default_layer_toggle 0  &default_layer_toggle 1  &default_layer_toggle 3  &ios_layer_toggle 3  &mac_layer_toggle 4  &none                                                  &trans                  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR
+&none  &none                    &none                    &none                    &none                &none                &bootloader                                            &bootloader             &none          &out OUT_USB   &out OUT_BLE   &none          &none          &none
+&none  &none                    &none                    &none                    &none                &none                &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none          &none          &none          &none          &none          &none
+&none  &none                    &none                    &none                    &macro_ver           &none                                    &none      &none                                           &none          &none          &none          &none          &none          &none
+&none  &none                    &none                    &kp C_AC_BACK            &kp C_AC_FORWARD                          &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                        &bl BL_INC     &bl BL_DEC     &none          &none          &none
             >;
         };
     };
